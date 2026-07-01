@@ -295,10 +295,6 @@ boolean playerTurn = (choice == 1);
 
         int visibleLength = plainText.length();
         int padding = Math.max(0, 7 - visibleLength);
-        StringBuilder spaces = new StringBuilder();
-        for (int i = 0; i < padding; i++) {
-            spaces.append(' ');
-        }
-        return cell + spaces.toString() + " ";
+        return cell + " ".repeat(padding) + " ";
     }
 }
