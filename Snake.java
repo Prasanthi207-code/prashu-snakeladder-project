@@ -289,7 +289,7 @@ boolean playerTurn = (choice == 1);
         String plainText = cell
                 .replace(RED, "")
                 .replace(GREEN, "")
-                .replace(YELLOW, "")
+                 .replace(YELLOW, "")
                 .replace(BLUE, "")
                 .replace(RESET, "");
 
