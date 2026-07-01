@@ -281,7 +281,7 @@ boolean playerTurn = (choice == 1);
         }
 
         else {
-            return String.format("[%03d]", num);
+             return String.format("[%03d]", num);
         }
     }
 
